@@ -6,9 +6,10 @@ This repository demonstrates how to organize a large game project so Claude can 
 ## How To Work In This Project
 1. Read this file first.
 2. Read `docs/guide.zh-CN.md`.
-3. Open the target module doc in `docs/systems/`.
-4. Open the module-local `CLAUDE.md`.
-5. Execute exactly one task from `tasks/in-progress/`.
+3. Read `docs/skills.zh-CN.md` if the task matches an existing skill.
+4. Open the target module doc in `docs/systems/`.
+5. Open the module-local `CLAUDE.md`.
+6. Execute exactly one task from `tasks/in-progress/`.
 
 ## Default Collaboration Rules
 - Prefer the smallest useful change.
@@ -33,6 +34,7 @@ This repository demonstrates how to organize a large game project so Claude can 
 ## File Reading Order
 - `CLAUDE.md`
 - `docs/guide.zh-CN.md`
+- `.claude/skills/<skill>/SKILL.md` when relevant
 - `docs/systems/<module>.md`
 - `src/<module>/CLAUDE.md` or nearest module folder guide
 - `tasks/in-progress/<task>.md`
