@@ -30,6 +30,7 @@
 10. [项目生命周期](project-lifecycle.zh-CN.md)
 11. [settings.json 中文说明](settings.zh-CN.md)
 12. [Review 中文说明](review.zh-CN.md)
+13. [Session Handoff 中文说明](session-handoff.zh-CN.md)
 
 ## 这个仓库里最关键的结构
 
@@ -71,6 +72,16 @@
 ### 6. `.claude/hooks/`
 
 这里放自动检查或自动提醒的规则。
+
+### 7. `.claude/commands/`
+
+这里放常见入口命令模板。
+
+它更像“常用操作入口”, 例如:
+- 开始一个任务
+- 结束一个任务
+- 做 review
+- 调试事故
 
 ## 如果你想直接看更像真实项目的例子
 
