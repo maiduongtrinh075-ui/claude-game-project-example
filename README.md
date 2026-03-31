@@ -47,3 +47,19 @@ If you are starting a real project, the best order is:
 - write the first module `CLAUDE.md`
 - write the first round task
 - then start writing code
+
+## How To Start Coding With AI
+Once the rules and the first task are written, start the implementation with an execution-style instruction.
+
+Suggested prompt:
+
+```text
+Read `CLAUDE.md`, the related module `CLAUDE.md`, and the current task file.
+Start implementing the task.
+Only modify files inside the allowed scope.
+Do not change interfaces marked as stable in the task.
+When finished, report:
+1. what changed
+2. how it was verified
+3. what remains for the next round
+```
