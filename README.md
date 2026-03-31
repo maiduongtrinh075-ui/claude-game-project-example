@@ -40,3 +40,10 @@ It demonstrates three layers working together:
 ## Why This Exists
 Large game projects are hard to build in one shot.
 This repo shows how to let Claude continue a feature from 0 to 1, then from 1 to 10, without losing boundaries.
+
+## Start Building
+If you are starting a real project, the best order is:
+- write `CLAUDE.md`
+- write the first module `CLAUDE.md`
+- write the first round task
+- then start writing code
