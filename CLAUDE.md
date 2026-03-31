@@ -43,6 +43,13 @@ Require explicit confirmation:
 - broad cross-module refactors
 - branch creation, push, or PR creation when not already authorized
 
+## Context Window Guidance
+- Load only the minimum context needed for the current task.
+- Start with global rules, then module rules, then the active task.
+- Prefer docs, guides, skills, and workflows before reading broad code areas.
+- Avoid reading unrelated systems unless the task clearly depends on them.
+- When context grows too large, favor the owning module and active task over distant history.
+
 ## Expandable Areas
 - gameplay modules
 - module-local UI
