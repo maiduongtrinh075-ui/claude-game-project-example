@@ -31,6 +31,8 @@
 11. [settings.json 中文说明](settings.zh-CN.md)
 12. [Review 中文说明](review.zh-CN.md)
 13. [Session Handoff 中文说明](session-handoff.zh-CN.md)
+14. [Commands 中文说明](commands.zh-CN.md)
+15. [Verification 中文说明](verification.zh-CN.md)
 
 ## 这个仓库里最关键的结构
 

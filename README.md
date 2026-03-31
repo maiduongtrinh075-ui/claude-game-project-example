@@ -26,6 +26,8 @@ It demonstrates three layers working together:
 - Read `docs/settings.zh-CN.md`
 - Read `docs/review.zh-CN.md`
 - Read `docs/session-handoff.zh-CN.md`
+- Read `docs/commands.zh-CN.md`
+- Read `docs/verification.zh-CN.md`
 - Pick a module under `src/gameplay/`
 - Open that module's `CLAUDE.md`
 - Run one task from `tasks/in-progress/`
