@@ -44,3 +44,10 @@ This repository demonstrates how to organize a large game project so Claude can 
 - global renames
 - save schema redesign
 - rewriting multiple systems in one pass
+
+## Multi-Agent Guidance
+- Use multiple agents only when work can be split into clearly separate areas.
+- Assign one owner per module or file area.
+- Keep write scopes separate to avoid conflicting edits.
+- Let one main agent own final integration and verification.
+- Avoid multi-agent work for small tasks or tightly coupled edits.
