@@ -28,6 +28,9 @@ It demonstrates three layers working together:
 - quests
 - battle UI
 
+## Practical Example
+- `examples/unity-csharp-ugui/`
+
 ## Why This Exists
 Large game projects are hard to build in one shot.
 This repo shows how to let Claude continue a feature from 0 to 1, then from 1 to 10, without losing boundaries.

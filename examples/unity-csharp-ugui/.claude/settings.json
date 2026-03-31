@@ -1,0 +1,23 @@
+{
+  "project": {
+    "name": "unity-csharp-ugui-example",
+    "entry": "CLAUDE.md",
+    "focus": "Unity modular game development",
+    "defaultMode": "restricted-execution"
+  },
+  "defaults": {
+    "preferSmallChanges": true,
+    "singleModulePerTask": true,
+    "preferDocsBeforeCode": true,
+    "updateDocsWhenBehaviorChanges": true
+  },
+  "context": {
+    "startWithGlobalGuide": true,
+    "preferMinimalRelevantContext": true
+  },
+  "safety": {
+    "preservePublicContracts": true,
+    "avoidSaveChangesByDefault": true,
+    "confirmHighRiskChanges": true
+  }
+}
