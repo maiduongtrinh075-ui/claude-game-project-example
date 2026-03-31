@@ -1,10 +1,41 @@
 {
-  "entry": "CLAUDE.md",
-  "mode": "modular-game-development",
-  "rules": {
+  "project": {
+    "name": "claude-game-project-example",
+    "entry": "CLAUDE.md",
+    "focus": "large modular game development",
+    "defaultMode": "restricted-execution"
+  },
+  "defaults": {
+    "preferSmallChanges": true,
     "singleModulePerTask": true,
+    "preferDocsBeforeCode": true,
+    "updateDocsWhenBehaviorChanges": true,
+    "recordDurableDecisions": true
+  },
+  "context": {
+    "startWithGlobalGuide": true,
+    "preferMinimalRelevantContext": true,
+    "preferModuleRulesBeforeBroadCodeReads": true
+  },
+  "safety": {
     "preservePublicContracts": true,
     "avoidSaveChangesByDefault": true,
-    "recordDurableDecisions": true
-  }
+    "confirmHighRiskChanges": true,
+    "avoidBroadRefactorsByDefault": true
+  },
+  "highRiskAreas": [
+    "save schema",
+    "persistence contracts",
+    "AssetBundle and resource pipeline policy",
+    "build and release scripts",
+    "cross-module public interfaces"
+  ],
+  "preferredDocs": [
+    "docs/guide.zh-CN.md",
+    "docs/skills.zh-CN.md",
+    "docs/workflows.zh-CN.md",
+    "docs/hooks.zh-CN.md",
+    "docs/permissions.zh-CN.md",
+    "docs/context-window.zh-CN.md"
+  ]
 }
