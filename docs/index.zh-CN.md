@@ -27,6 +27,9 @@
 7. [上下文窗口中文说明](context-window.zh-CN.md)
 8. [常见陷阱与性能优化](common-pitfalls.zh-CN.md)
 9. [多 Agent 中文说明](multi-agent.zh-CN.md)
+10. [项目生命周期](project-lifecycle.zh-CN.md)
+11. [settings.json 中文说明](settings.zh-CN.md)
+12. [Review 中文说明](review.zh-CN.md)
 
 ## 这个仓库里最关键的结构
 
@@ -80,6 +83,18 @@
 - `Assets/` 和协作文档如何分层
 - Gameplay 和 UI 如何拆分
 - 如何给 Combat 模块单独写 `CLAUDE.md`
+
+## 如果你想看连续任务链
+
+可以看:
+
+[combat 连续任务链示例](../examples/task-chain-combat/README.md)
+
+这个示例演示:
+- 一个模块如何从 phase 0 连续扩写到 phase 3
+- task、workflow、review 如何配合
+- 什么时候该记 decisions
+- 每一轮应该如何收尾
 
 ## 一句话理解这个仓库
 

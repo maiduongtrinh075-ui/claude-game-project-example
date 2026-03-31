@@ -21,6 +21,9 @@ It demonstrates three layers working together:
 - Read `docs/permissions.zh-CN.md`
 - Read `docs/context-window.zh-CN.md`
 - Read `docs/common-pitfalls.zh-CN.md`
+- Read `docs/project-lifecycle.zh-CN.md`
+- Read `docs/settings.zh-CN.md`
+- Read `docs/review.zh-CN.md`
 - Pick a module under `src/gameplay/`
 - Open that module's `CLAUDE.md`
 - Run one task from `tasks/in-progress/`
