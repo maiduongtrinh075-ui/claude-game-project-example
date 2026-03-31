@@ -16,6 +16,7 @@ It demonstrates three layers working together:
 - Read `docs/skills.zh-CN.md`
 - Read `docs/workflows.zh-CN.md`
 - Read `docs/hooks.zh-CN.md`
+- Read `docs/permissions.zh-CN.md`
 - Pick a module under `src/gameplay/`
 - Open that module's `CLAUDE.md`
 - Run one task from `tasks/in-progress/`

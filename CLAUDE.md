@@ -27,6 +27,22 @@ This repository demonstrates how to organize a large game project so Claude can 
 - shared event patterns
 - core runtime utilities
 
+## Permission Mode
+Default mode: restricted execution.
+
+Allowed by default:
+- read code and docs
+- edit task-scoped files
+- update module docs
+- run lightweight validation
+
+Require explicit confirmation:
+- save schema or persistence contract changes
+- resource pipeline or AssetBundle policy changes
+- destructive cleanup or cache deletion
+- broad cross-module refactors
+- branch creation, push, or PR creation when not already authorized
+
 ## Expandable Areas
 - gameplay modules
 - module-local UI
