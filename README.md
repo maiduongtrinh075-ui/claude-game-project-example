@@ -2,6 +2,8 @@
 
 This repository is a concrete example of a large game project structure designed for Claude-style modular expansion.
 
+[中文首页](docs/index.zh-CN.md)
+
 It demonstrates three layers working together:
 - a global `CLAUDE.md` for project-wide rules
 - module-level `CLAUDE.md` files for long-running feature areas
