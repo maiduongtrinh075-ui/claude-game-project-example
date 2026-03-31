@@ -2,6 +2,8 @@
 
 This example shows how the Claude-oriented project structure can map onto a practical Unity + C# + UGUI game project.
 
+[中文首页](docs/index.zh-CN.md)
+
 ## What This Example Demonstrates
 - how root-level Claude docs stay outside the Unity `Assets/` folder
 - how gameplay, UI, data, and integration map to Unity script folders
