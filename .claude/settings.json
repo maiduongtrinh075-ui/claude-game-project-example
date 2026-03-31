@@ -1,0 +1,10 @@
+{
+  "entry": "CLAUDE.md",
+  "mode": "modular-game-development",
+  "rules": {
+    "singleModulePerTask": true,
+    "preservePublicContracts": true,
+    "avoidSaveChangesByDefault": true,
+    "recordDurableDecisions": true
+  }
+}

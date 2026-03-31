@@ -1,0 +1,44 @@
+# Global Claude Guide
+
+## Project Goal
+This repository demonstrates how to organize a large game project so Claude can expand one module at a time without destabilizing unrelated systems.
+
+## How To Work In This Project
+1. Read this file first.
+2. Read `docs/guide.zh-CN.md`.
+3. Open the target module doc in `docs/systems/`.
+4. Open the module-local `CLAUDE.md`.
+5. Execute exactly one task from `tasks/in-progress/`.
+
+## Default Collaboration Rules
+- Prefer the smallest useful change.
+- Expand one module at a time.
+- Preserve public interfaces unless the task explicitly allows changes.
+- Do not change save contracts without documenting the change.
+- Do not rewrite shared core systems unless the task is explicitly about core.
+- Record lasting decisions in `.claude/memory/decisions.md`.
+
+## Stable Areas
+- boot flow
+- save compatibility
+- shared event patterns
+- core runtime utilities
+
+## Expandable Areas
+- gameplay modules
+- module-local UI
+- content definitions
+- task-scoped data/config additions
+
+## File Reading Order
+- `CLAUDE.md`
+- `docs/guide.zh-CN.md`
+- `docs/systems/<module>.md`
+- `src/<module>/CLAUDE.md` or nearest module folder guide
+- `tasks/in-progress/<task>.md`
+
+## Default Non-Goals
+- broad refactors
+- global renames
+- save schema redesign
+- rewriting multiple systems in one pass
