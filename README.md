@@ -8,12 +8,14 @@ It demonstrates three layers working together:
 - single-iteration task files under `tasks/in-progress/`
 - reusable project skills under `.claude/skills/`
 - reusable workflows under `.claude/workflows/`
+- lightweight hooks under `.claude/hooks/`
 
 ## Start Here
 - Read `CLAUDE.md`
 - Read `docs/guide.zh-CN.md`
 - Read `docs/skills.zh-CN.md`
 - Read `docs/workflows.zh-CN.md`
+- Read `docs/hooks.zh-CN.md`
 - Pick a module under `src/gameplay/`
 - Open that module's `CLAUDE.md`
 - Run one task from `tasks/in-progress/`
